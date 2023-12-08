@@ -3,7 +3,8 @@
 This architecture includes the application of input layer to a fully-connected neural neetwork
 Model: "sequential"
 _________________________________________________________________
- Layer (type)                Output Shape              Param #
+Layer (type)                Output Shape              Param #
+
 =================================================================
  conv2d (Conv2D)             (None, 126, 126, 32)      896
  max_pooling2d (MaxPooling2D)  (None, 63, 63, 32)       0
@@ -17,7 +18,9 @@ _________________________________________________________________
  flatten (Flatten)           (None, 9408)              0
  dense (Dense)               (None, 512)               4817408
  dense_1 (Dense)             (None, 128)               65664
- dense_2 (Dense)             (None, 10)                1290
+ 
+  dense_2 (Dense)             (None, 10)                1290
+
 =================================================================
 Total params: 4,919,914
 Trainable params: 4,919,914
